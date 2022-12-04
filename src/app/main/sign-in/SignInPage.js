@@ -55,6 +55,7 @@ function SignInPage() {
         // No need to do anything, user data will be set at app/auth/AuthContext
       })
       .catch((_errors) => {
+        console.log('_errors: ', _errors);
         _errors.forEach((error) => {
           setError(error.type, {
             type: 'manual',

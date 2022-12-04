@@ -11,15 +11,6 @@ const SignInConfig = {
         toolbar: {
           display: false,
         },
-        footer: {
-          display: false,
-        },
-        leftSidePanel: {
-          display: false,
-        },
-        rightSidePanel: {
-          display: false,
-        },
       },
     },
   },
